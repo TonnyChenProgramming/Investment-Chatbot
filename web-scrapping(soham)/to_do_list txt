@@ -1,0 +1,16 @@
+OneRoof url: https://www.oneroof.co.nz/?gad_source=1&gclid=CjwKCAiAlcyuBhBnEiwAOGZ2Sxu4GfVoXxPZkSf8R4rgqXPAeEtIPoiXMmoKQncCaeMfdlmhc5R6ShoCQ0kQAvD_BwE
+relab url: https://relab.co.nz/?
+
+collect all the key information for properties in Auckland, and store them in a json. file, it should include 
+  --> location
+  --> Auction time
+  --> description
+  --> property type (house/apartment/....)
+  --> open home time
+  --> house agent name and contact number
+  --> capital value
+
+guide: 1. write a function to scrape one page of html text from websites,example:https://www.oneroof.co.nz/property/auckland/meadowbank/53-rutherford-terrace/1xXc5?page=alt&mrasn=1159087.1437146.W0a2lC4J (request module) 
+       2. extract the wanted data out of html(regular expression, re, beautiful soup) and store them in a json file
+
+        3.repeat step 1 and step 2 for all the properties in auckland across the two website, and build a .json file containing the data
